@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+/* styles.css or global.css */
+.MuiAlert-root {
+  margin-block: 8px;
+  /* equivalent to margin-top and margin-bottom */
+}
+
+/* .container {
+  font-size: 2rem;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+} */

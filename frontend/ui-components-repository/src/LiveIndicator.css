@@ -1,0 +1,30 @@
+.live-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #ffe5e5; /* light red background */
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: #e53935;
+  width: fit-content;
+}
+
+.blinking-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #e53935;
+  animation: blink 1.5s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.1;
+  }
+}

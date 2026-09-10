@@ -1,0 +1,92 @@
+#app-calendar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: repeat(5, 1fr);
+  background-color: white;
+  border-radius: 5px;
+  height: 50%;
+  padding: 5px;
+  block-size: auto;
+  grid-gap: 6px;
+  color: black;
+}
+
+#calendar-container {
+  margin-right: 5%;
+  /* max-width: 80%;
+    max-height: 50%;
+    margin: auto; */
+}
+
+/* 
+.calendar-control {
+    display: inline-block;
+    margin: auto;
+    font-size: 16px;
+
+} */
+
+#calendar-container > form {
+  margin: 20px;
+}
+
+#calendar-container > form > select {
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.day {
+  font-family: "helvetica";
+  color: aliceblue;
+  /* border: 1px solid black; */
+  padding: 11px;
+  background-color: lightslategray;
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: #0e0684;
+}
+
+.day .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: relative;
+  z-index: 1;
+  top: 5px;
+  left: 60%;
+}
+
+.day:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* .first_element{
+    grid-column: ;
+} */
+
+.day_of_week {
+  font-family: "Helvetica";
+  font-size: 20px;
+  /* color: aliceblue; */
+  text-align: center;
+  margin: auto;
+}
+
+.date {
+  /* color: aliceblue; */
+}
+
+.metric {
+  color: white;
+  font-size: 30px;
+  margin: 6px 0;
+}

@@ -1,0 +1,10 @@
+.login-container {
+  height: 100vh;
+
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.784),
+      rgba(255, 255, 255, 0.77)
+    ),
+    url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg");
+  background-size: cover;
+}

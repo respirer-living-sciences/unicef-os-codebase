@@ -1,0 +1,19 @@
+.mui-card {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 7px;
+  color: white;
+}
+
+.mui-card-linechart {
+  display: flex;
+  /* justify-content: space-around; */
+  /* margin: 0 20px; */
+  color: white;
+}
+
+.mui-togglebutton {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 5px 5px 0;
+}

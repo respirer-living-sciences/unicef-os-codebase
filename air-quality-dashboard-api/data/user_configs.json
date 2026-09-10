@@ -1,0 +1,75 @@
+{
+  "demo": {
+    "priority_metrics": [
+      {
+        "metric": "pm2.5cnc",
+        "label": "PM₂.₅",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "pm10cnc",
+        "label": "PM₁₀",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "temp",
+        "label": "Temperature",
+        "unit": "°C"
+      },
+      {
+        "metric": "humidity",
+        "label": "Humidity",
+        "unit": "%"
+      },
+      {
+        "metric": "o3model",
+        "label": "O₃",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "no2model",
+        "label": "NO₂",
+        "unit": "µg/m³"
+      }
+    ],
+    "all_metrics": [
+      {
+        "metric": "pm2.5cnc",
+        "label": "PM₂.₅",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "pm10cnc",
+        "label": "PM₁₀",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "temp",
+        "label": "Temperature",
+        "unit": "°C"
+      },
+      {
+        "metric": "humidity",
+        "label": "Humidity",
+        "unit": "%"
+      },
+      {
+        "metric": "battery",
+        "label": "Battery Level",
+        "unit": "%"
+      },
+      {
+        "metric": "o3model",
+        "label": "O₃",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "no2model",
+        "label": "NO₂",
+        "unit": "µg/m³"
+      }
+    ],
+    "map_center": ["18.5468866455", "73.5468866455"],
+    "map_zoom_level": 5
+  }
+}

@@ -1,0 +1,26 @@
+.css-1u5bi8g-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.toggleButton.Mui-selected {
+  background-color: yellow;
+}
+
+/* .MuiToggleButtonGroup-root.css-1gjgmky-MuiToggleButtonGroup-root {
+  background-color: blueviolet;
+} */
+
+.css-x6mkou-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  font-weight: bold;
+}
+
+.durationContainer {
+  margin: 10px 0 20px 0;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin: 10px 5px 10px 0;
+}

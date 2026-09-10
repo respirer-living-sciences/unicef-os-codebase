@@ -1,0 +1,53 @@
+{
+    "priority_metrics": [
+      {
+        "metric": "pm2.5cnc",
+        "label": "PM₂.₅",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "pm10cnc",
+        "label": "PM₁₀",
+        "unit": "µg/m³"
+      },
+      {
+        "metric": "temp",
+        "label": "Temperature",
+        "unit": "°C"
+      },
+      {
+        "metric": "humidity",
+        "label": "Humidity",
+        "unit": "%"
+      }
+    ],
+    "all_metrics": [
+      {
+        "metric": "pm2.5cnc",
+        "label": "PM₂.₅"
+      },
+      {
+        "metric": "pm10cnc",
+        "label": "PM₁₀"
+      },
+      {
+        "metric": "temp",
+        "label": "Temperature"
+      },
+      {
+        "metric": "humidity",
+        "label": "Humidity"
+      },
+      {
+        "metric": "battery",
+        "label": "Battery Level"
+      },
+      {
+        "metric": "power_avl",
+        "label": "Power Avl"
+      }
+    ],
+    "map_center": ["21.170240", "72.831062"],
+    "map_zoom_level": 5
+
+}
